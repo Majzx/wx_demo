@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/feedback/feedback",
+    "pages/profile/profile"
+  ],
+  "window": {
+    "navigationBarTitleText": "深信计协维修", 
+    "navigationBarBackgroundColor": "#465CFF",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#efefef",
+    "backgroundTextStyle":"dark"
+  },
+  "tabBar": {
+    "selectedColor": "#f3514f",
+    "color": "#666",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/assets/icon/shouye-active.png",
+      "selectedIconPath": "/assets/icon/shouye-active.png"
+    },
+    {
+      "pagePath": "pages/feedback/feedback",
+      "text": "反馈",
+      "iconPath": "/assets/icon/fankui.png",
+      "selectedIconPath": "/assets/icon/fankui.png"
+    },
+    {
+      "pagePath": "pages/profile/profile",
+      "text": "我的",
+      "iconPath": "/assets/icon/geren.png",
+      "selectedIconPath": "/assets/icon/geren.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

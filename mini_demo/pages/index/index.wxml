@@ -1,0 +1,16 @@
+<!-- 轮播图区域 -->
+<view class="swpier">
+  <swiper autoplay interval="2000" indicator-dots indicator-color="#fff" indicator-active-color="#A3A3A3" circular>
+    <swiper-item>
+      <image src="/assets/img/1.jpg" mode="" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/img/1.jpg" mode="" />
+    </swiper-item>
+    <swiper-item>
+      <image src="/assets/img/1.jpg" mode="" />
+    </swiper-item>
+  </swiper>
+</view>
+
+<navigator url="/pages/feedback/feedback" open-type="switchTab">666</navigator>
